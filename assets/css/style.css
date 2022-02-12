@@ -9,7 +9,7 @@ body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
-/* Header style */
+/* Header / Nav Bar style start*/
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -48,6 +48,35 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
+/* Header / Nav Bar Style ends */
+
+/* Footer style start */
+footer {
+    background:#fce138;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
+}
+/* Footer style ends */
+
+/* Style all sections tags */
 section {
     padding: 60px;
 }
@@ -119,6 +148,7 @@ section {
 }
 /* Hero End */
 
+/* Section Title style starts */
 .section-title {
     font-size: 55px;
     color:#024e76;
@@ -136,7 +166,9 @@ section {
 .secondary-border {
     border-color: #39a6b2
 }
-/* What we do */
+/* Section Title style ends */
+
+/* What We Do Style*/
 
 .intro p {
     line-height: 1.7;
@@ -147,7 +179,10 @@ section {
     text-align: center;
 }
 
-/*What you do */
+/* What We do style ends */
+
+
+/*What You Do Style starts */
 
 .steps {
     background: #fce138;
@@ -201,7 +236,11 @@ section {
 .step-img img {
     max-width: 100%;
 }
-/*Meet our trainers */
+
+/* What You DO Style ends */
+ 
+
+/*Meet The Trainers Starts*/
 
 .trainer {
     margin: 20px;
@@ -251,20 +290,9 @@ section {
     font-size: 17px; 
 }
 
-.flex-row {
-    display: flex;
-}
+/* Trainer Styles end */
 
-
-.text-left {
-    text-align: left;
-
-}
-
-.text-right {
-    text-align: right;
-}
- /* Reach out section */
+/* Reach Out Styles start */
 .contact {
     background: #024e76;
 }
@@ -328,27 +356,17 @@ section {
     font-size: 16px;
 }
 
-/* Footer style */
-footer {
-    background:#fce138;
-    width: 100%;
-    padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+/* Reach Out Styles End */
+
+/* UTILITIES */
+.text-left {
+    text-align: left;
 }
 
-footer h2 {
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-
-footer div {
-    line-height: 1.5;
+.text-right {
     text-align: right;
 }
 
-footer a {
-    color: #024e76;
+.flex-row {
+    display: flex;
 }
